@@ -1,52 +1,282 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brigitte Hochmuth</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      line-height: 1.6;
-    }
-    h1 {
-      margin-bottom: 5px;
-    }
-    h2 {
-      margin-top: 40px;
-    }
-    a {
-      color: #003366;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Brigitte Hochmuth</h1>
-<p>Assistant Professor of Macroeconomics<br>
-University of Copenhagen</p>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="name">Brigitte Hochmuth</div>
+        <div class="affil">Assistant Professor of Macroeconomics · University of Copenhagen · CEPR Research Affiliate</div>
+      </div>
 
-<h2>Research</h2>
-<p>
-Heterogeneous-agent macroeconomics, labor markets, monetary policy transmission, entrepreneurship and risk preferences.
-</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#working-papers">Working Papers</a>
+        <a href="#wip">Work in Progress</a>
+        <a href="#publications">Publications</a>
+        <a href="#media">Media</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </div>
 
-<h2>Publications</h2>
-<ul>
-<li>Labor Market Reforms in Open Economies: Current Account Dynamics and Consumer Heterogeneity (R&R AEJ Macro)</li>
-<li>Credit Crunches, Firm Age and Employment Dynamics</li>
-</ul>
+  <div class="wrap">
 
-<h2>Teaching</h2>
-<p>Macroeconomics B, Programming for Economists</p>
+    <!-- ABOUT -->
+    <div class="hero" id="about">
+      <div class="card">
+        <h1>About me</h1>
+        <p class="lead">
+          I am an Assistant Professor at the <strong>University of Copenhagen</strong> and a <strong>CEPR Research Affiliate</strong>.
+        </p>
+        <p class="lead">
+          My research combines <strong>microdata</strong> with <strong>macroeconomic models</strong> to study the domestic and international
+          effects of macroeconomic policies, with a particular focus on fiscal and labor market policies. I am especially interested in
+          <strong>household heterogeneity</strong> and the <strong>redistributive effects</strong> of these policies.
+        </p>
 
-<h2>Contact</h2>
-<p>
-Email: your.email@domain.com<br>
-CEPR Research Affiliate
-</p>
+        <div class="btnrow">
+          <a class="btn primary" href="#working-papers">Working papers</a>
+          <a class="btn" href="assets/cv.pdf" target="_blank" rel="noreferrer">CV</a>
+          <a class="btn" href="assets/cv.pdf" download>Download</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
 
+        <p class="smallnote">Office hours: Please make an appointment via e-mail!</p>
+      </div>
+
+      <div class="card">
+        <h2 style="margin-top:0;color:var(--text);text-transform:none;letter-spacing:0;">Quick links</h2>
+        <ul>
+          <li><a href="#" target="_blank" rel="noreferrer">Google Scholar</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">SSRN</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">RePEc</a></li>
+          <li><a href="https://github.com/brigittehochmuth" target="_blank" rel="noreferrer">GitHub</a></li>
+        </ul>
+        <hr class="hr">
+        <div class="meta">Based in xxxxxxxxx.</div>
+      </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="section" id="news">
+      <h2>News</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Invited seminars in spring/summer 2026:</strong> Copenhagen Business School (Brown Bag), University of Salzburg, De Nederlandsche Bank, Austrian National Bank.</li>
+          <li><strong>EES Workshop 2026:</strong> There will be a new edition of the Workshop on <strong>New Developments in the Macroeconomics of Labor Markets</strong> on June 17-18, 2026, in Nürnberg (Germany). Keynote speakers are Ayşegül Şahin (Princeton University) and Benjamin Schoefer (UC Berkeley). <a href="#" target="_blank" rel="noreferrer">Call for Papers</a></li>
+          <li><strong>Spring/Summer 2026:</strong> I will be teaching <a href="#" target="_blank" rel="noreferrer">Macroeconomics B (MakØkB)</a> – BSc Programme in Computer Science and Economics.</li>
+          <li><strong>Autumn 2025:</strong> I will be teaching <a href="#" target="_blank" rel="noreferrer">Programming for Economists</a> at KU (with Jeppe Druedahl). Check out the corresponding <a href="#" target="_blank" rel="noreferrer">NumEconCPH website</a> for the material.</li>
+          <li><strong>New CEPR DP (No. 20286):</strong> <a href="#" target="_blank" rel="noreferrer">Heterogeneous Risk Preferences, Entrepreneurship, and Wealth</a> (joint with Monika Merz and Fabian Prettenthaler).</li>
+          <li>A substantially revised version of our paper, <strong>Labor Market Reforms in Open Economies: Current Account Dynamics and Consumer Heterogeneity</strong>, is now available as CEPR Discussion Paper (No. DP 20092).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- WORKING PAPERS -->
+    <div class="section" id="working-papers">
+      <h2>Working Papers</h2>
+
+      <div class="card">
+        <ul>
+          <li>
+            <strong>Labor Market Reforms in Open Economies: Current Account Dynamics and Consumer Heterogeneity</strong><br>
+            <span class="meta">(Revised and Resubmitted (2nd Round) to AEJ: Macroeconomics) · joint with Stéphane Moyen, Felix Schröter, and Nikolai Stähler.</span><br>
+            <a href="#" target="_blank" rel="noreferrer">Download Paper</a>
+            <span class="badge">CEPR DP</span>
+            <p class="meta">
+              Abstract: This paper establishes a link between labor market reforms and an increase in the reforming country’s net foreign asset position via a precautionary savings channel. Specifically, we evaluate the current account effects of a major German labor market reform that reduced the generosity of unemployment benefits. Using a heterogeneous agent model of a small open economy with labor market frictions, we show that accounting for precautionary savings is qualitatively and quantitatively important for current account dynamics. In the first five years following its implementation, the reform contributed 12 percent to the dynamics of the German current account. Furthermore, welfare gains and losses are distributed unequally among agents. Compared to a closed economy, the reform is more detrimental.
+            </p>
+          </li>
+
+          <li>
+            <strong>Heterogeneous Risk Preferences, Entrepreneurship, and Wealth</strong><br>
+            <span class="meta">joint with Monika Merz and Fabian Prettenthaler · funded by the OeNB Anniversary Fund (project number 18885) · <span class="badge">CEPR DP No. 20286</span> · <a href="#" target="_blank" rel="noreferrer">ungated</a></span><br>
+            <span class="meta">(Revise and Resubmit at the Journal of the European Economic Association)</span>
+            <p class="meta">
+              Abstract: This paper studies how individual risk attitudes shape occupational choice and wealth accumulation. Using self-reported individual risk preferences from the German Socioeconomic Panel (GSOEP), we estimate that an increase in risk tolerance raises the probability of a worker transitioning to self-employment. We also develop a life-cycle model of occupational choice with Epstein-Zin preferences and heterogeneous risk attitudes to study how risk aversion interacts with entrepreneurial ability and wealth in determining entry into self-employment and its aggregate implications. Counterfactual simulations show that increasing business risk reduces entry but improves selection by entrepreneurial skills. In contrast, Germany’s “1-Euro GmbH” reform of 2008 weakened the role of risk tolerance for entry and increased participation by more risk-averse individuals.
+            </p>
+          </li>
+
+          <li>
+            <strong>Financial Constraints, Firm Age, and the Labor Market</strong><br>
+            <span class="meta"><span class="badge">Dwyer Ramsey Prize 2020</span> by the Society of Nonlinear Dynamics and Econometrics (SNDE)</span>
+            <p class="meta">
+              Abstract: I document the heterogeneous effects of credit supply shocks on the labor market over time and by firm age. During the Great Financial Crisis (GFC), a credit crunch caused young firms to reduce employment significantly more than old firms. The housing bust starting in 2006 eroded young firms' collateral, restricting their borrowing capacity. To disentangle the relative contributions of the credit supply and net worth channels, I develop a financial friction model with an explicit firm age structure. The model explains the empirical findings by showing how a simultaneous credit crunch and decline in young firms' net worth disproportionately affect their borrowing capacity and labor demand. While old firms shift toward equity financing in response to the shock, young firms rely heavily on debt financing and are forced to reduce labor demand. Given that young firms disproportionately drive aggregate job growth, these findings explain the sluggish labor market recovery after the GFC and highlight the critical role of firm age in amplifying macroeconomic shocks.
+            </p>
+          </li>
+
+          <li>
+            <strong>Incomplete Insurance and Open-Economy Spillovers of Labor Market Reforms</strong><br>
+            <span class="meta">joint with Christian Merkl and Heiko Stüber.</span><br>
+            <a href="#" target="_blank" rel="noreferrer">Download Paper</a>
+            <p class="meta">
+              Abstract: This paper shows that less generous unemployment benefits in one country may generate substantial negative long-run consumption spillovers to non-reforming countries under incomplete consumption insurance. While lower benefits reduce unemployment in the reforming country, employed workers increase their precautionary savings to compensate for reduced government-provided insurance. A portion of these additional savings flows to the non-reforming country and depresses long-term consumption due to the negative net foreign asset position. To discipline our quantitative model, we estimate the increase of Germany’s tradable sector in the aftermath of the Hartz unemployment insurance reform based on firm-level data. Our quantitative model matches a significant fraction of various macroeconomic trends after the reform, namely Germany’s persistent increase of aggregate savings and net foreign assets, the increase of net exports, the real exchange rate depreciation within the Eurozone, and the decline in unemployment. Conversely, Germany’s wage moderation before the reform appears to be unrelated to most of these phenomena.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- WORK IN PROGRESS -->
+    <div class="section" id="wip">
+      <h2>Work in Progress</h2>
+      <div class="card">
+        <ul>
+          <li>
+            <strong>Fiscal Policy under Labor Shortages</strong> <span class="meta">(with Gregor Böhl)</span>
+            <p class="meta">
+              Abstract: We document that the households' labor market participation margin is a key driver of macroeconomic dynamics and policy responses. We build a HANK model with participation choice in which shifts in demographics, productivity, or preferences can lead to significant labor shortages, which strongly alter inflation and output responses to economic shocks and policy measures. While either the rich or the poor reject common policies such as increases in government spending or tax cuts because of their distortionary effect on labor market participation, we find that untargeted transfers are Pareto improving.
+            </p>
+          </li>
+          <li><strong>Business Risk, Taxation, and Economic Welfare</strong> <span class="meta">(with Monika Merz and Fabian Prettenthaler)</span></li>
+          <li><strong>The Macroeconomic and Distributional Consequences of Fiscal Policy in a Small-Open Economy</strong> <span class="meta">(with Wolfgang Lechthaler and Clara de Luigi)</span></li>
+          <li><strong>Will Payment Innovations Disrupt Banking? Lessons from Prepaid Cards</strong> <span class="meta">(with Paul Pichler and Philipp Ulbing)</span></li>
+          <li><strong>Overconfident CEOs and Monetary Policy</strong> <span class="meta">(with Adelina Garamow)</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS -->
+    <div class="section" id="publications">
+      <h2>Publications</h2>
+      <div class="card">
+        <ul>
+          <li>
+            <strong>Hartz IV and the Decline of German Unemployment: A Macroeconomic Evaluation</strong>
+            <span class="meta">(with Britta Kohlbrecher, Christian Merkl, and Hermann Gartner), Journal of Economic Dynamics and Control, Vol. 127, June 2021, 104114.</span><br>
+            <a href="#" target="_blank" rel="noreferrer">Published Version</a>
+            <span class="meta">· Latest working paper versions:</span>
+            <a href="#" target="_blank" rel="noreferrer">IHS WP</a>
+            <a href="#" target="_blank" rel="noreferrer">Cesifo WP</a><br>
+            <span class="meta">Related policy articles &amp; media coverage:</span>
+            <a href="#" target="_blank" rel="noreferrer">IZA Newsroom</a>,
+            <a href="#" target="_blank" rel="noreferrer">IZA Newsroom (DE)</a>,
+            <a href="#" target="_blank" rel="noreferrer">Makronom</a>
+            <p class="meta">
+              Abstract: This paper proposes a new approach to evaluate the macroeconomic effects of the ‘Hartz IV’ reform, which reduced the generosity of long-term unemployment benefits. We propose a model with different unemployment durations, where the reform initiates both a partial effect and an equilibrium effect. We estimate the relative importance of these two effects and the size of the partial effect based on the IAB Job Vacancy Survey. Our approach does not hinge on an external source for the decline in the replacement rate for long-term unemployed. We find that Hartz IV was a major driver for the decline of Germany’s steady state unemployment and that partial and equilibrium effect were nearly of equal importance. In addition, we provide direct empirical evidence on labor selection, one potential dimension of recruiting intensity.
+            </p>
+          </li>
+
+          <li>
+            <strong>Counteracting Unemployment in Crises: Non-Linear Effects of Short-Time Work Policy</strong>
+            <span class="meta">(joint with Britta Gehrke), The Scandinavian Journal of Economics, Vol. 123, Issue 1, January 2021, pp. 144-183.</span><br>
+            <a href="#" target="_blank" rel="noreferrer">Published Version</a>
+            <span class="meta">·</span>
+            <a href="#" target="_blank" rel="noreferrer">IZA Discussion Paper</a><br>
+            <span class="meta">Related policy articles &amp; media coverage:</span>
+            <a href="#" target="_blank" rel="noreferrer">VoxEU Article</a>,
+            <a href="#" target="_blank" rel="noreferrer">ifo Schnelldienst</a>,
+            <a href="#" target="_blank" rel="noreferrer">WirtschaftsWoche</a>,
+            <a href="#" target="_blank" rel="noreferrer">Zeitschrift f. Wirtschaftspolitik</a>
+            <p class="meta">
+              Abstract: Short-time work is a labor market policy that subsidizes working time reductions among firms in financial difficulty to prevent layoffs. Many OECD countries have used this policy in the Great Recession. This paper shows that the effects of short-time work are strongly time dependent and nonlinear over the business cycle. It may save up to 0.87 jobs per short-time worker in deep economic crises. In expansions, the effects are smaller and may turn negative. We disentangle discretionary short-time work from automatic stabilization in German data using smooth transition VARs.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- MEDIA -->
+    <div class="section" id="media">
+      <h2>In the Media</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Wenn die Wirtschaft schrumpft. Krisenfest trotz Rezession?</strong> Ö1 Punkt 1 (Radio Show), October 7, 2022.</li>
+          <li><strong>An die Arbeit!</strong> Falter 36/21 (Newspaper), September 8, 2021.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TEACHING -->
+    <div class="section" id="teaching">
+      <h2>Teaching</h2>
+      <div class="card">
+        <ul>
+          <li><strong>University of Vienna</strong>
+            <ul>
+              <li>Current Topics in Macroeconomic Policy (Master level), summer term. <a href="#" target="_blank" rel="noreferrer">Course Description</a></li>
+              <li>Makroökonomie (Bachelor level, for Business students), winter term</li>
+            </ul>
+          </li>
+
+          <li><strong>University of Bonn</strong>
+            <ul>
+              <li><strong>Summer term 2024</strong>
+                <ul>
+                  <li>Arbeitsmärkte und Bevölkerungsökonomie (Bachelor Level)</li>
+                  <li>Research Seminar on “Inequality” (Bachelor Level)</li>
+                </ul>
+              </li>
+              <li><strong>Winter term 2023/24</strong>
+                <ul>
+                  <li>Makroökonomie A (Bachelor Level)</li>
+                  <li>Topics in Macroeconomics and Public Policy: “Micro Data meets Macro Questions” (Master/PhD Level)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li><strong>University of Erlangen-Nuremberg (PhD studies)</strong>
+            <ul>
+              <li>Macroeconomics, Undergraduate Level</li>
+              <li>International Economics, Undergraduate Level, Exercise Class</li>
+              <li>European Topics in Economics, Master Seminar with the European Commission</li>
+              <li>Empirical Applications in Financial Economics, Master Seminar</li>
+              <li>Large-scale Data Management, Master Seminar</li>
+            </ul>
+          </li>
+
+          <li><strong>Supervision of Bachelor and Master Theses</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="grid">
+        <div class="card">
+          <dl class="kv">
+            <dt>Email</dt>
+            <dd>
+              your.email@domain.com
+              <button class="btn" id="copyEmailBtn" data-email="your.email@domain.com" type="button" style="margin-left:10px;">copy</button>
+            </dd>
+            <dt>Affiliation</dt>
+            <dd>University of Copenhagen</dd>
+            <dt>Office</dt>
+            <dd>xxxxxxxxx</dd>
+          </dl>
+        </div>
+        <div class="card">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="assets/cv.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></li>
+          </ul>
+          <p class="meta">Office hours: Please make an appointment via e-mail!</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        © <span id="y"></span> Brigitte Hochmuth
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
