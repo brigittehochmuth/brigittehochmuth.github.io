@@ -26,6 +26,18 @@ function copyToClipboard(text){
   navigator.clipboard.writeText(text);
 }
 
+  document.querySelectorAll("button[data-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.getAttribute("data-toggle");
+      const el = document.getElementById(id);
+      if (!el) return;
+
+      const isOpen = el.style.display !== "none";
+      el.style.display = isOpen ? "none" : "block";
+      btn.textContent = isOpen ? "Abstract" : "Hide abstract";
+    });
+  });
+
 document.addEventListener("DOMContentLoaded", () => {
   setActiveNav();
 
