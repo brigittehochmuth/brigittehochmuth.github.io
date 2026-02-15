@@ -81,10 +81,9 @@ img{
 }
 
 header{
-  padding: 18px 0;
   background: #0c0f14;
-  color: #ffffff;
   border-bottom: 1px solid rgba(255,255,255,0.08);
+  color: #ffffff;
 }
 
 /* keep all header text light */
@@ -92,11 +91,19 @@ header *{
   color: inherit;
 }
 
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 32px;
+  padding: 12px 0;   /* tighter than 18px */
+}
+
 /* nav layout in the header only */
 header nav{
   display:flex;
   flex-wrap:wrap;
-  gap:10px;
+  gap: 12px;
   justify-content:flex-end;
 }
 
@@ -106,34 +113,20 @@ header nav a{
   font-size: 0.95rem;
   letter-spacing: 0.3px;
   text-decoration: none;
-  padding: 8px 10px;
+  padding: 6px 10px;     /* slightly tighter */
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
-.header-inner{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap: 32px;
-}
-
-header nav a:visited{
-  color: #ffffff;
-}
-
 header nav a:hover{
-  color: #ffffff;
   background: rgba(255,255,255,0.08);
 }
 
 header nav a.active{
-  color: #ffffff;
   font-weight: 750;
   background: rgba(140,207,155,0.14);
   border: 1px solid rgba(140,207,155,0.22);
 }
-
 .hero{
   display:grid;
   grid-template-columns: 0.85fr 1.15fr;
