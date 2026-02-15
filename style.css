@@ -205,15 +205,6 @@ li{margin:8px 0;}
   font-size: 13px;
 }
 
-.profile-pic{
-  width: 220px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  display: block;
-  margin: 0 auto 14px auto;
-}
 
 .abs{
   margin-top: 10px;
