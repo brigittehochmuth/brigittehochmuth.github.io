@@ -99,11 +99,7 @@ header *{
   padding: 14px 0;
 }
 
-/* nav layout in the header only */
 header nav{
-  display:flex;
-  flex-wrap:wrap;
-  gap: 12px;
   justify-content: center;
 }
 
