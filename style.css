@@ -70,7 +70,7 @@ a:hover{text-decoration:underline;}
 }
 
 .container{
-  max-width: 1250px;
+  max-width: 1150px;   /* match hero width */
   margin: 0 auto;
   padding: 0 28px;
 }
@@ -81,9 +81,12 @@ img{
 }
 
 header{
-  background: #0c0f14;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(14px);
 }
 
 /* keep all header text light */
@@ -92,11 +95,11 @@ header *{
 }
 
 .header-inner{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 14px 0;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:32px;
+  padding:10px 0;   /* tighter */
 }
 
 header nav{
