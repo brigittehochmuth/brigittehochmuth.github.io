@@ -136,6 +136,15 @@ header{
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+header{
+  background: #0c0f14;
+  color: #ffffff;
+}
+
+header *{
+  color: inherit;
+}
+
 .card{
   background: var(--card);
   border: 1px solid var(--border);
