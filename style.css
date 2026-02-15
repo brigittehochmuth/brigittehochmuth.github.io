@@ -173,30 +173,26 @@ h2{
   font-weight: 650;
 }
 
-.btnrow{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px;}
-.btn{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  padding:6px 12px;
-  border-radius:18px;
-  border:1px solid var(--border);
-  background:transparent;
-  color:var(--text);
-  font-size:13px;
-  font-weight:600;
-  text-decoration:none;
-  cursor:pointer;
-  transition: all 0.15s ease;
+.btnrow{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
 }
 
-.btn:hover{
-  background:rgba(255,255,255,0.08);
-  border-color:#888;
+.btn.small{
+  padding:5px 10px;
+  font-size:0.85rem;
 }
+
 .btn.primary{
-  border-color: rgba(126,231,135,0.40);
-  background: rgba(126,231,135,0.10);
+  background: rgba(140,207,155,0.18);
+  border:1px solid rgba(140,207,155,0.3);
+}
+
+.btn.subtle{
+  background: rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.15);
 }
 
 .section{
