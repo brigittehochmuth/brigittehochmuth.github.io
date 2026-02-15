@@ -101,7 +101,7 @@ header nav{
 }
 
 header nav a{
-  color: rgba(255,255,255,0.86);
+  color: #ffffff;
   font-weight: 650;
   font-size: 0.95rem;
   letter-spacing: 0.3px;
@@ -109,6 +109,17 @@ header nav a{
   padding: 8px 10px;
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 32px;
+}
+
+header nav a:visited{
+  color: #ffffff;
 }
 
 header nav a:hover{
