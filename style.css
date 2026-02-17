@@ -459,6 +459,62 @@ nav { display: flex; gap: 12px; flex-wrap: wrap; }
   outline-offset: 3px;
 }
 
+.about-grid{
+  display:grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 18px;
+  align-items:start;
+}
+
+.about-side{
+  padding-left: 16px;
+  border-left: 1px solid rgba(0,0,0,0.10);
+}
+
+.side-title{
+  margin: 6px 0 10px;
+  font-size: 0.95rem;
+}
+
+.side-list{
+  margin: 0;
+  padding-left: 18px;
+}
+
+.side-list li{
+  margin: 0 0 10px;
+}
+
+/* smaller social icon buttons */
+.icon-links{
+  gap: 8px;
+}
+
+.iconbtn{
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+}
+
+.iconbtn svg{
+  width: 18px;
+  height: 18px;
+}
+
+/* responsive: stack on small screens */
+@media (max-width: 860px){
+  .about-grid{
+    grid-template-columns: 1fr;
+  }
+  .about-side{
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid rgba(0,0,0,0.10);
+    padding-top: 12px;
+    margin-top: 8px;
+  }
+}
+
 .iconbtn svg{
   width:26px;
   height:26px;
