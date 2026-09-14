@@ -610,3 +610,14 @@ html {
   .supervision-content h2 { font-size: 23px; }
   .supervision-content th, .supervision-content td { padding: 9px 5px; font-size: 12px; }
 }
+
+
+/* Local research navigation stays compact beside the paper list. */
+.research-jumps { display: flex; flex-direction: column; gap: 9px; margin-top: 21px; font-size: 12px; line-height: 1.5; }
+.research-jumps a { width: fit-content; }
+#publications { scroll-margin-top: 115px; }
+@media (max-width: 740px) {
+  #research > .section-heading { flex-wrap: wrap; gap: 0 18px; }
+  .research-jumps { flex-basis: 100%; flex-direction: row; flex-wrap: wrap; gap: 9px 17px; margin-top: 15px; }
+  #publications { scroll-margin-top: 145px; }
+}
